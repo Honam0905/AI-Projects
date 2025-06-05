@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "travel_planner": "/Users/honam/VSC/travel-planner/src/agent/graph.py:part_4_graph"
+  },
+  "env": "/Users/honam/VSC/travel-planner/.env"
+}
