@@ -1,4 +1,4 @@
-# New LangGraph Project
+# This is multi-agent project for travel support
 
 [![CI](https://github.com/langchain-ai/new-langgraph-project/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/langchain-ai/new-langgraph-project/actions/workflows/unit-tests.yml)
 [![Integration Tests](https://github.com/langchain-ai/new-langgraph-project/actions/workflows/integration-tests.yml/badge.svg)](https://github.com/langchain-ai/new-langgraph-project/actions/workflows/integration-tests.yml)
@@ -40,7 +40,10 @@ If you want to enable LangSmith tracing, add your LangSmith API key to the `.env
 
 ```text
 # .env
-LANGSMITH_API_KEY=lsv2...
+LANGSMITH_API_KEY=lsv2_.....
+GOOGLE_API_KEY=........
+TAVILY_API_KEY=tvly-.....
+PASSENGER_ID=(depend on your choice)
 ```
 
 3. Start the LangGraph Server.
