@@ -45,8 +45,11 @@ GOOGLE_API_KEY=........
 TAVILY_API_KEY=tvly-.....
 PASSENGER_ID=(depend on your choice)
 ```
-
-3. Start the LangGraph Server.
+3. Run this before run main command
+```shell
+export PYTHONPATH="$PWD/src${PYTHONPATH:+:}$PYTHONPATH"
+```
+4. Start the LangGraph Server.
 
 ```shell
 langgraph dev
