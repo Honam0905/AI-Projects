@@ -1,16 +1,4 @@
-<!-- Banner -->
-<p align="center">
-  <a href="https://www.uit.edu.vn/" title="Trường Đại học Công nghệ Thông tin" style="border: none;">
-    <img src="https://i.imgur.com/WmMnSRt.png" alt="Trường Đại học Công nghệ Thông tin | University of Information Technology">
-  </a>
-</p>
-
-<!-- Title -->
-<h1 align="center"><b>Machine Learning Operations</b></h1>
-
-<!-- Main -->
-
-# LangGraph Seminar: ToDo List Agent with Memory
+# AI-Project: ToDo List Agent with Memory
 
 ## 1. Introduction
 
