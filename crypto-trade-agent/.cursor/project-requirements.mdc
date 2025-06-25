@@ -1,0 +1,96 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Project Document – Requirements and System Design
+
+5.1. Functional Requirements
+User Management (Medium):
+
+User registration and authentication with fields including username, password, full name, age, interests, investment capital, and crypto trading knowledge.
+
+Session management and memory management (short-term & long-term).
+
+Data Collection Module (High):
+
+Real-Time Market Data: Integrate with APIs from trusted exchanges and data sources.
+
+Social and News Aggregation: Collect data from social media, websites, and credible groups.
+
+Web Scraping & API Integration: Use tools like Scrapy (or similar frameworks) for data collection.
+
+Data Analysis & Forecasting (High):
+
+Develop time-series forecasting models for market trend analysis.
+
+Use MLflow to track model training, tuning, and deployment.
+
+Integrate market data with news and database query results.
+
+Chatbot & Q/A Module (High):
+
+Build a chatbot integrated with Large Language Models (LLMs) to automatically answer crypto-related queries.
+
+Combine data retrieval from databases and real-time internet searches to generate accurate responses.
+
+Manage short-term (session context) and long-term (history context) memory for Q/A sessions.
+
+System Integration & Deployment:
+
+Containerization: Use Docker and Kubernetes for deployment across devices (including personal smartphones).
+
+CI/CD Pipeline: Implement Jenkins for automated building, testing, and deployment.
+
+UI/UX:
+
+Web UI using ReactJS.
+
+Mobile UI using Flutter.
+
+Database Systems:
+
+Redis for caching, MongoDB for non-relational data, PostgreSQL for relational data, and Kafka for streaming.
+
+Monitoring & Security:
+
+Deploy monitoring tools (Prometheus, Grafana) to track system performance and health.
+
+Ensure user authentication, data encryption, and secure API management.
+
+5.2. System Architecture & Flow
+High-Level Flow:
+
+User creates an account → submits a query → system routes the query based on type.
+
+Market-related queries:
+
+Collect real-time data + historical data → feed into forecasting models → combine with news/LLM responses.
+
+Crypto trading Q/A:
+
+Retrieve data from databases + internet → analyze and respond via LLM.
+
+Memory Management Module:
+
+Store session and interaction history to improve future responses.
+
+Component Diagram:
+
+Frontend: Web (ReactJS), Mobile (Flutter).
+
+Backend: API Gateway, Authentication Service, Data Aggregator, Analysis Engine, Chatbot Engine.
+
+Data Storage: Redis, MongoDB, PostgreSQL.
+
+Deployment: Docker, Kubernetes, Jenkins (CI/CD).
+
+Monitoring: Prometheus, Grafana.
+
+Key Notes:
+
+Modular design for scalability and flexibility.
+
+Hybrid database system for optimized data handling.
+
+Emphasis on real-time processing and secure user interactions.

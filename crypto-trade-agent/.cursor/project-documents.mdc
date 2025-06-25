@@ -1,0 +1,44 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Project Overview
+1.1. Objectives
+The Crypto Trading Assistant Agent aims to provide a real-time cryptocurrency trading support system, including:
+
+Market Data Collection: Gather and aggregate data from APIs, news sources, and trusted community groups.
+
+Market Analysis: Integrate time-series forecasting models to predict trends and support decision-making.
+
+User Interaction: A chatbot feature that answers crypto-related questions and assists with trading, leveraging data retrieval and short-term/long-term memory.
+
+1.2. Workflow
+1. User Registration
+Users provide personal details such as name, age, interests, investment capital, and crypto trading knowledge level.
+
+2. Query Submission
+A. Market-Related Queries
+Collect real-time market data from APIs and news sources.
+
+Feed the data into a pre-trained time-series model (tracked via MLflow).
+
+Combine the results with database-retrieved data and LLM-generated insights to provide recommendations.
+
+B. Crypto Trading Q&A
+Retrieve relevant data from databases and perform internet searches.
+
+Use LLM to analyze and generate responses.
+
+3. Memory Management
+Short-term memory: Maintains context within a session.
+
+Long-term memory: Stores relevant data from past sessions (unless truncated) to improve responses to follow-up questions.
+
+Key Features Highlighted:
+✅ Real-time data processing
+✅ AI-powered forecasting & decision support
+✅ Interactive chatbot with contextual memory
+✅ Secure user onboarding & personalized insights
+
+This system ensures traders receive timely, data-driven insights while maintaining an intuitive and interactive user experience. 🚀

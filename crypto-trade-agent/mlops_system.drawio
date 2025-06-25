@@ -1,0 +1,142 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="wL08G5f4CCR-M81Mn9Fg">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-1" value="Người dùng đăng ký" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="324" y="810" width="202" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-2" value="Tạo hồ sơ người dùng" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="316" y="914" width="217" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-3" value="Gửi câu hỏi" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="356" y="1018" width="138" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-4" value="Câu hỏi thị trường" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="173" y="1206" width="193" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-5" value="Câu hỏi kiến thức trade" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="464" y="1450" width="232" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-6" value="Lấy dữ liệu từ API &amp; nguồn tin tức" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1310" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-7" value="Mô hình Time Series dự đoán xu hướng" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1438" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-8" value="Truy xuất dữ liệu từ database" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1566" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-9" value="Tổng hợp LLM -&gt; Tư vấn chiến lược" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1694" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-10" value="Truy xuất kiến thức từ DB &amp; web" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="450" y="1566" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-11" value="LLM phân tích &amp; trả lời" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="467" y="1706" width="227" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-12" value="Gửi phản hồi đến người dùng" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="1822" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-13" value="Quản lý bộ nhớ" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1950" width="171" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-14" value="Bộ nhớ ngắn hạn" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="221" y="2054" width="183" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-15" value="Bộ nhớ dài hạn" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="453" y="2054" width="169" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-1" target="WDN_gmDKnRA4zX9EOmPE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-2" target="WDN_gmDKnRA4zX9EOmPE-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-3" target="WDN_gmDKnRA4zX9EOmPE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-3" target="WDN_gmDKnRA4zX9EOmPE-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-4" target="WDN_gmDKnRA4zX9EOmPE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-6" target="WDN_gmDKnRA4zX9EOmPE-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-7" target="WDN_gmDKnRA4zX9EOmPE-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-8" target="WDN_gmDKnRA4zX9EOmPE-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-5" target="WDN_gmDKnRA4zX9EOmPE-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-10" target="WDN_gmDKnRA4zX9EOmPE-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.14;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-9" target="WDN_gmDKnRA4zX9EOmPE-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="1797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.86;entryY=0;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-11" target="WDN_gmDKnRA4zX9EOmPE-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="1797" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-12" target="WDN_gmDKnRA4zX9EOmPE-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-29" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-13" target="WDN_gmDKnRA4zX9EOmPE-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="312" y="2029" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDN_gmDKnRA4zX9EOmPE-30" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="WDN_gmDKnRA4zX9EOmPE-13" target="WDN_gmDKnRA4zX9EOmPE-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="538" y="2029" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

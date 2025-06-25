@@ -1,0 +1,22 @@
+# Core API and web server
+fastapi>=0.104.0
+uvicorn>=0.23.2
+pydantic>=2.4.2
+pydantic-settings>=2.0.3
+python-dotenv>=1.0.0
+
+# LangGraph stack
+langgraph>=0.0.19
+langchain-core>=0.1.7
+langchain-groq>=0.1.0  # For Groq LLM
+langchain-anthropic>=0.1.1  # For Anthropic Claude models
+
+# Additional utility packages
+requests>=2.31.0
+python-multipart>=0.0.6  # For form data
+typing-extensions>=4.8.0
+pytz>=2023.3
+
+# Optional: Database drivers (uncomment as needed)
+# redis>=5.0.1  # For Redis-based memory store
+# psycopg2-binary>=2.9.9  # For PostgreSQL 

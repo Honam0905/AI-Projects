@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "combined-agent"
+version = "0.1.0"
+description = "A LangGraph agent combining ReAct, Memory, and Personalization"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.1.1"
+langchain-core = "^0.2.19"
+langchain-groq = "^0.1.6"
+langchain-community = "^0.2.5"
+langchain-openai = "^0.1.14" # Added for potential Trustcall compatibility or alternative models
+trustcall = "^0.1.0" # Assuming trustcall is pip-installable like this
+pydantic = "^2.7.4"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.30.1"}
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+langchain-tavily = "^0.1.1" # For the search tool
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
