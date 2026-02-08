@@ -141,7 +141,12 @@ Training results include:
 - PPO training metrics (value loss, policy gradient loss, entropy loss, approx KL)
 - Real-time gameplay demonstrations saved as MP4 video
 
-All visualizations are generated and displayed within the notebook using TensorBoard data and matplotlib.
+## Demo video
+
+
+https://github.com/user-attachments/assets/6f958123-a5ad-43b5-9521-cdbed48ecfc8
+
+
 
 ## License
 
