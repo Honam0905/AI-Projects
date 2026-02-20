@@ -183,18 +183,7 @@ Artifacts:
 - `/Users/honam/Cursor/voice_rag_agent/evaluation/results.jsonl`
 - `/Users/honam/Cursor/voice_rag_agent/evaluation/metrics.csv`
 
-## 8. Quality Gates
-```bash
-cd /Users/honam/Cursor/voice_rag_agent
-bash scripts/run_milestone8.sh
-```
-
-This runs:
-- `ruff check .`
-- `black --check .`
-- `pytest`
-
-## 9. Conclusion and Future Improvements
+## 8. Conclusion and Future Improvements
 This project delivers a full voice-enabled RAG workflow with clean backend APIs, modern UI integration, retrieval + reranking support, and an evaluation pipeline.
 
 Practical next improvements:
