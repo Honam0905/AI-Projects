@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local virtual environments
+.venv/
+.venv*/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor
+.DS_Store
+
+# Frontend build/dependency artifacts
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Runtime-generated project data
+data/pdfs/
+data/zvec/

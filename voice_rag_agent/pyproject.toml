@@ -1,0 +1,19 @@
+[tool.black]
+line-length = 88
+target-version = ["py310"]
+exclude = '''
+/(
+    \.venv310
+  | node_modules
+  | dist
+  | __pycache__
+)/
+'''
+
+[tool.ruff]
+target-version = "py310"
+exclude = [
+  ".venv310",
+  "src/voice_rag/UI/node_modules",
+  "src/voice_rag/UI/dist",
+]
